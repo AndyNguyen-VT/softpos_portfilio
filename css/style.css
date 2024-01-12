@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-body{
-    overflow-x: hidden;
-}
+
 .header{
     display: flex;
     align-items: center;
@@ -29,6 +27,25 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+#overview .nav__headings{
+  justify-content: center;
+  display: flex;
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  margin: 5%;
+  padding: 10px 15px;
+  background-color: #161ECA;
+  border-radius: 10px;
+
+
+
+}
+#overview .nav__headings::selection{
+  background-color: white;
+  color: #161ECA;
+}
+
 
 
 .header__nav a:hover{
@@ -49,9 +66,7 @@ body{
     height: 25%;
 }
 
-#overview .nav__headings{
-  justify-content: center;
-}
+
 
 .img{
     margin: 30% 50%;
@@ -156,5 +171,7 @@ body {
   -moz-animation-timing-function: linear;
   -o-animation-timing-function: linear;
   animation-timing-function: linear;
+  overflow-x: hidden;
+
 }
 
