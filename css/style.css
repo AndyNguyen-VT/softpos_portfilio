@@ -37,10 +37,11 @@
   padding: 10px 15px;
   background-color: #161ECA;
   border-radius: 10px;
-
-
+  width: calc(100%-100px);
 
 }
+
+
 #overview .nav__headings::selection{
   background-color: white;
   color: #161ECA;
@@ -69,26 +70,26 @@
 
 
 .img{
-    margin: 30% 50%;
+    margin: 10% 20%;
     width: 25rem;
     height: 60rem;
     display: flex;
+    padding: 0px 0px;
 }
 
 
 
 .headings_1{
-    width: 50%;
-    height: 80%;
+    width: calc(100%-300px);
+    height: calc(100%-300px);
     margin-top: -10%;
-    margin-left: 50%;
-    margin-right: 50%;
     display: inline-block;
     white-space: nowrap;
     color: #000;
-    font-size: 18px;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
+    padding: 0px 30%;
 }
 
 .headings_1 .pos{
@@ -98,7 +99,7 @@
 
 .headings_1 .style{
   font-style: italic;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 400;
 }
 
