@@ -27,22 +27,21 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-#overview .nav__headings{
+#overview .nav__headings1{
   justify-content: center;
   display: flex;
-  font-size: 32px;
+  font-size: 50px;
   font-weight: 700;
-  color: #fff;
+  color: #161ECA;
   margin: 5%;
   padding: 10px 15px;
-  background-color: #161ECA;
   border-radius: 10px;
   width: calc(100%-100px);
 
 }
 
 
-#overview .nav__headings::selection{
+#overview .nav__headings1::selection{
   background-color: white;
   color: #161ECA;
 }
@@ -90,6 +89,8 @@
     display: flex;
     flex-direction: column;
     padding: 0px 30%;
+    justify-content: space-around;
+    font-size: 18px !important;
 }
 
 .headings_1 .pos{
@@ -99,7 +100,7 @@
 
 .headings_1 .style{
   font-style: italic;
-  font-size: 14px;
+
   font-weight: 400;
 }
 
@@ -112,6 +113,12 @@
 .contactless span{
   display: inline-flex;
 }
+
+.headings_1 .nfc{
+  color: #161ECA;
+  font-size: 40px;
+}
+
 
 
 @-webkit-keyframes bg-scrolling-reverse {
