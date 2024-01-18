@@ -120,6 +120,31 @@
 }
 
 
+#demo .play{
+  padding: 0% 15%;
+}
+
+
+#demo iframe{
+  border-radius: 20px;
+  border: 1px solid #000;
+  width: 1280px;
+  height: 720px;
+}
+
+.nav__headings4{
+  justify-content: center;
+  display: flex;
+  font-size: 50px;
+  font-weight: 700;
+  color: #161ECA;
+  margin: 5%;
+  padding: 10px 15px;
+  border-radius: 10px;
+  width: calc(100%-100px);
+
+}
+
 
 @-webkit-keyframes bg-scrolling-reverse {
   100% {
